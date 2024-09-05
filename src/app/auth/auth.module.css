@@ -1,5 +1,6 @@
+
 .container {
-    height: 100vh;
+    /*height: 100vh;*/
     max-width: 400px;
     margin: auto;
     padding: 20px;
@@ -8,6 +9,7 @@
 
 .h1 {
     margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 .oauthContainer {
@@ -23,6 +25,7 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 .oauthButton:hover {
@@ -43,6 +46,7 @@
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 .submitButton {
@@ -52,6 +56,7 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 .submitButton:hover {
@@ -61,4 +66,40 @@
 .error {
     color: red;
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .oauthButton, .submitButton {
+        font-size: 1.1rem;
+    }
+
+    .input {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .h1 {
+        font-size: 2.5rem;
+    }
+
+    .oauthButton, .submitButton {
+        font-size: 1.2rem;
+    }
+
+    .input {
+        font-size: 1.2rem;
+    }
 }

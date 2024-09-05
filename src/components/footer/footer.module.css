@@ -14,3 +14,43 @@
 .socialLinks a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .socialLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialLinks a {
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .socialLinks {
+        display: flex;
+        justify-content: center;
+    }
+
+    .socialLinks a {
+        margin: 0 15px;
+    }
+}
+@media (min-width: 769px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .socialLinks a {
+        margin: 0 20px;
+    }
+}

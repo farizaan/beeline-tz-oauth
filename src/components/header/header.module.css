@@ -39,3 +39,64 @@
 .logoutButton:hover {
     background-color: #c8102e;
 }
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .navList {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navList li {
+        margin-bottom: 10px;
+    }
+
+    .navList a {
+        font-size: 1rem;
+    }
+
+    .logoutButton {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .header {
+        padding: 15px;
+    }
+
+    .navList {
+        justify-content: space-between;
+    }
+
+    .navList a {
+        font-size: 1.1rem;
+    }
+
+    .logoutButton {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+    .header {
+        padding: 20px;
+    }
+
+    .navList {
+        justify-content: space-around;
+    }
+
+    .navList a {
+        font-size: 1.2rem;
+    }
+
+    .logoutButton {
+        padding: 14px;
+    }
+}

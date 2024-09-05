@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Profile - Next Auth App",
         description: "Profile page of next app",
-        images: ['/path-to-image.jpg'],
+        images: ['/next.svg'],
         url: 'https://my-app.com',
     },
 };

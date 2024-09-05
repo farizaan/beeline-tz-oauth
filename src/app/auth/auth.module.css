@@ -1,0 +1,64 @@
+.container {
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.h1 {
+    margin-bottom: 20px;
+}
+
+.oauthContainer {
+    margin-bottom: 20px;
+}
+
+.oauthButton {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.oauthButton:hover {
+    background-color: #005bb5;
+}
+
+.separator {
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submitButton {
+    padding: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submitButton:hover {
+    background-color: #005bb5;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}

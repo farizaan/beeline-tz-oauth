@@ -10,21 +10,28 @@
     background-color: #f9f9f9;
 }
 
-.h1 {
-    font-size: 2rem;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 1.2em;
     margin-bottom: 20px;
-    color: #333;
 }
 
-.p {
-    font-size: 1.2rem;
-    color: #555;
-}
-
-.profileImage {
-    width: 100px;
-    height: 100px;
+.avatar {
     border-radius: 50%;
-    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    margin: 20px 0;
 }
+
